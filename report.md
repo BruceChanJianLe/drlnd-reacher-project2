@@ -23,6 +23,7 @@ The actor also add noise to its action as a Ornstein-Ulenbeck process with mu(0)
 - Replay Buffer Size: 1000000
 - Batch Size: 280
 - Gamma (discount factor): 0.99
-- Tau (soft update): 0.005
-- Learning Rate: 0.001
-- Update Network: 4
+- Tau (soft update): 0.001
+- Learning Rate (Actor): 0.00005
+- Learning Rate (Critic): 0.00005
+- Weight Decay: 0
