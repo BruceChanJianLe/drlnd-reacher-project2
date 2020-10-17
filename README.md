@@ -11,6 +11,12 @@ The observation space consists of 33 variables corresponding to position, rotati
 **Aim**
 The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30.
 
+**State Space**
+The state space is 33 which are variables corresponding to position, rotation, velocity, and angular velocities of the arm.
+
+**Action Space**
+The action space is 4 which are torques that applies to the arm's two joints. Each entry in the action vector is a number between [-1, 1].
+
 ## Getting Started
 
 Please make sure `python3.6` is installed in your conda environment. And run the install script.
