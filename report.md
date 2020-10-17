@@ -85,3 +85,7 @@ Solved in 456 steps!
 ```
 
 ![image](/data/images/average_score.png)
+
+## Future Works
+
+- Implement multi agents training
