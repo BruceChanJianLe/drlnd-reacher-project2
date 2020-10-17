@@ -12,11 +12,17 @@ DDPG is a type of actor-critic methods which are applicable to continuous state 
 
 ### Actor
 
-The actor neural network consist of two hidden layer. The input layer has 33 neurons. The first hidden layer has 220 neurons and the second hidden layer has 130 neurons. The output layer has 4 neurons.
+The actor neural network consist of two hidden layer with ReLu function as activation function. The input layer has 33 neurons. The first hidden layer has 220 neurons and the second hidden layer has 130 neurons. The output layer has 4 neurons.
 
 Batch normalization is performed after the first hidden layer and a tanh function is applied at the output layer so that the result can be in between [-1, 1].
 
 The actor also add noise to its action as a Ornstein-Ulenbeck process with mu(0), theta(0.03) and sigma(0.02). 
+
+### Critic
+
+The critic neural network consist of two hidden layer with ReLu function as activation function. the input layer is 33 neurons. The first hidden has 220 neurons, however, 4 additional input (equal to the action space) is added as input to the second hidden layer. The second hidden layer has 130 neurons whereas the output layer only has 1 neuron.
+
+Batch normalization is performed after the first hidden layer as well.
 
 ### Hyper-Parameters
 
