@@ -11,3 +11,13 @@ The observation space consists of 33 variables corresponding to position, rotati
 **Aim**
 The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30.
 
+## Getting Started
+
+Please make sure `python3.6` is installed in your conda environment. And run the install script.
+```bash
+source ./install.sh
+```
+
+## Running
+
+Please run `My_Continuous_Control.ipynb` jupyter notebook. You will need to be able to connect to the jupyter notebook server before you can run it.
