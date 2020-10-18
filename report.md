@@ -86,6 +86,8 @@ Solved in 456 steps!
 
 ![image](/data/images/average_score.png)
 
+The number of episodes needed to solve the environment is 456 episodes.
+
 ## Future Works
 
 - Implement multi agents training
