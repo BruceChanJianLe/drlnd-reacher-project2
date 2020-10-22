@@ -30,8 +30,8 @@ Batch normalization is performed after the first hidden layer as well.
 - Batch Size: 280
 - Gamma (discount factor): 0.99
 - Tau (soft update): 0.001
-- Learning Rate (Actor): 0.00005
-- Learning Rate (Critic): 0.00005
+- Learning Rate (Actor): 0.0001
+- Learning Rate (Critic): 0.0001
 - Weight Decay: 0
 
 Training Results:
