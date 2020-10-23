@@ -81,7 +81,7 @@ Solved in 407 steps!
 
 ![image](/data/images/average_score_new.png)
 
-The number of episodes needed to solve the environment is 456 episodes.
+The number of episodes needed to solve the environment is 407 episodes.
 
 ### The Weights
 
